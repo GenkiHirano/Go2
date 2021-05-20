@@ -8,10 +8,10 @@ type Student struct {
 }
 
 func (s Student) avg() {
-	fmt.Println(s.name, )
+	fmt.Println(s.name, (s.math + s.english) / 2)
 }
 
 func main() {
-	s := Student{"sato", 80, 70}
-	fmt.Println(s)
+	a001 := Student{"sato", 80, 70}
+	a001.avg()
 }
