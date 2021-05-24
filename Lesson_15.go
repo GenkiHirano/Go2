@@ -15,7 +15,7 @@ func (s Student) calAvg(data []float64) (avgResult float64) {
 	return
 }
 
-func (s Student) junde(avg float64) (jundeResult float64) {
+func (s Student) junde(avg float64) (jundeResult string) {
 	if avg >= 60 {
 		jundeResult = "passed"
 	} else {
