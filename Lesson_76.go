@@ -1,3 +1,7 @@
+package main
+
+import "fmt"
+
 type Person struct{}  //Person構造体
 type Person2 struct{} //Person2構造体
 
