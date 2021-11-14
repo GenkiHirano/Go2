@@ -20,3 +20,5 @@ func main() {
 	u.hit()
 	u.show()
 }
+
+finalLine
